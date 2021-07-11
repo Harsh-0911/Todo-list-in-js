@@ -1,0 +1,100 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('bg.jpg');
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+button {
+  height: 31px;
+  cursor: pointer;
+  text-align: center;
+  margin: 5px;
+  padding: auto;
+  width: 100px;
+  border-radius: 50px;
+  border-style: none;
+  outline: none;
+  transition: all 0.5s;
+}
+
+button:hover {
+  background-color: rgb(85, 174, 216);
+  color: white;
+  cursor: pointer;
+}
+
+/* .update{
+  position: relative;
+  left: 5px;
+}
+
+.delete {
+  position: relative;
+  left: 5px;
+} */
+
+.delete:hover {
+  background-color: rgb(156, 23, 23);
+}
+
+.update:hover {
+  background-color: rgb(15, 148, 15);
+}
+
+ul {
+  list-style-type: none;
+}
+
+input {
+  margin: 5px;
+  padding: 5px;
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  outline: none;
+  border-style: none;
+  background-color: rgb(234, 245, 244);
+  border-radius: 50px;
+}
+
+input:focus {
+  border-style: solid;
+  border-width: 1px;
+  border-color: black;
+  transition: all 0.3s;
+}
+
+#inputContainer {
+  margin: 15px;
+  margin-top: 70px;
+  padding: 15px;
+  align-items: center;
+  text-align: center;
+}
+
+#taskContiner {
+  text-align: center;
+  margin: 15px;
+  padding: 15px;
+  align-items: center;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+li {
+  margin: 5px, 1px;
+  padding: 2px, 2px;
+}
+
+.todo {
+  align-self: center;
+}
